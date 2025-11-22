@@ -42,7 +42,19 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "bundler": "metro"
+      "bundler": "metro",
+      "name": "KCApp - CPA Firm Management",
+      "shortName": "KCApp",
+      "description": "Track time, mileage, and manage clients for your CPA firm",
+      "backgroundColor": "#ffffff",
+      "themeColor": "#1a365d",
+      "lang": "en",
+      "output": "single",
+      "build": {
+        "babel": {
+          "include": ["react-native-reanimated"]
+        }
+      }
     },
     "plugins": [
       "expo-apple-authentication",
